@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Luyện tập mảng 01</title>
+</head>
+<body>
+<h4>Bài 9- Viết chương trình khởi tạo/nhập vào 2 mảng số nguyên gồm 10 phần tử, gọi là mảng a và b. Mảng c là một mảng được khai báo gồm 20 phần tử số nguyên. Chương trình sẽ lưu các phần tử được nối từ hai mảng b và a vào mảng c. Hiển thị mảng c.</h4>
+</body>
+<script>
+    let a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    let b = [11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
+    let c = [];
+    for (let i = 0, j = 0; i < a.length; i++) {
+        c[j] = a[i];
+        j++;
+        c[j] = b[i];
+        j++;
+    }
+    document.write("Mảng C xen kẽ là: " + c);
+</script>
+</html>

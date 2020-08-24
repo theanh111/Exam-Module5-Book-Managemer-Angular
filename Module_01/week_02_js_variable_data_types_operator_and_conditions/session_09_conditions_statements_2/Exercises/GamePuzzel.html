@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game giải đố</title>
+</head>
+<style>
+    img {
+        box-shadow: black 4px 5px 7px 4px;
+        outline-style: solid;
+        outline-color: #EEECF1;
+        width: 600px;
+        height: 150px;
+    }
+</style>
+<body>
+<img id="img1" src="https://i.imgur.com/RslJFHK.jpg" onclick="changeImg(1)" alt="1">
+<br>
+<br>
+<img id="img2" src="https://i.imgur.com/gaAs5XY.jpg" onclick="changeImg(2)" alt="1">
+<br>
+<br>
+<img id="img3" src="https://i.imgur.com/k2wRQUE.jpg" onclick="changeImg(3)" alt="1">
+</body>
+
+<script>
+    function changeImg(index) {
+        let img = document.getElementById("img" + index);
+        if (img.src == "https://i.imgur.com/RslJFHK.jpg") {
+            img.src = "https://i.imgur.com/gaAs5XY.jpg";
+        } else if (img.src == "https://i.imgur.com/gaAs5XY.jpg") {
+            img.src = "https://i.imgur.com/k2wRQUE.jpg";
+        } else {
+            img.src = "https://i.imgur.com/RslJFHK.jpg";
+            checkDone();
+        }
+    }
+
+    function checkDone() {
+        let a = document.getElementById("img1").src;
+        let b = document.getElementById("img2").src;
+        let c = document.getElementById("img3").src;
+        if (a === b && b === c && a === c) {
+            setTimeout(
+                function () {
+                    alert("You win!");
+                }, 500)
+        }
+    }
+</script>
+</html>

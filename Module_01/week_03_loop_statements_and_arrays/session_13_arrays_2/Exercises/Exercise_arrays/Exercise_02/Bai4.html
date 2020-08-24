@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Luyện tập mảng 02</title>
+</head>
+<body>
+<h4>Bài 4: Viết một chương trình để đếm số từ trong một chuỗi</h4>
+</body>
+<script>
+    // // Cach 1:
+    // let arr = ["black", "red", "blue"];
+    // document.write("Chuỗi: " + arr + "<br>");
+    // let count = 0;
+    // for (let i = 0; i < arr.length; i++) {
+    //     count++;
+    // }
+    // document.write("Chuỗi trên có: " + count + " từ");
+
+    // // Cach 2
+    let size = +prompt("Enter array's length: ","");
+    let count = 0;
+    let str = [];
+    for (let i = 0; i < size; i++) {
+        str[i] = prompt("Element " + i);
+    }
+    document.write("- Chuỗi vừa nhập có trong mảng: " + str + "<br>");
+
+    for (let j = 0; j < str.length; j++) {
+        count++;
+    }
+    document.write("- Chuỗi trên có: " + count + " từ");
+
+</script>
+</html>

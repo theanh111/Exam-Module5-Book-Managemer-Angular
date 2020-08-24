@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h4>Bài 2- Viết chương trình khởi tạo mảng số nguyên gồm 10 phần tử khác nhau. Chương trình hiển thị ra được phần tử có giá trị lớn nhất trong mảng và vị trí của phần tử đó.</h4>
+</body>
+<script>
+    let primeNums = [2, 89, 5, 7, 41, 67, 71, 13, 37, 47];
+    let size = primeNums.length;
+    let index = 0;
+    let max = primeNums[0];
+    for (let i = 0; i < size; i++) {
+        if (primeNums[i] > max) {
+            max = primeNums[i];
+            index = i;
+        }
+    }
+    document.write("Max trong Mảng là: " + max + "<br>");
+    document.write("Ví trị của Max trong mảng là: " + index);
+</script>
+</html>

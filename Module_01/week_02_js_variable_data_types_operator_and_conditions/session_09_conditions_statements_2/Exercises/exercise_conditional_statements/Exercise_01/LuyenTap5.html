@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Luyện tập cấu trúc điều kiện 01</title>
+</head>
+<body>
+<h1>Bài 5: Xếp hạng học lực của học sinh dựa trên các điểm bài kiểm tra, điểm thi giữa kỳ, điểm thi cuối kỳ</h1>
+</body>
+<script>
+    let diemKi1 = +prompt('Nhập điểm kiểm tra kỳ 1: ', '');
+    let diemGiuaKi = +prompt('Nhập điểm kiểm tra giữa kỳ: ', '');
+    let diemKi2 = +prompt('Nhập điểm kiểm tra kỳ 2: ', '');
+    let avg = (diemKi1 + diemGiuaKi + diemKi2) / 3;
+    if (avg < 6.5) {
+        if (avg < 5) {
+            alert('Bạn đạt loại Yếu!');
+        } else {
+            alert('Bạn đạt loại Trung Bình!');
+        }
+    } else if (avg < 8) {
+        alert('Bạn đạt loại Khá!');
+    } else {
+        alert('Bạn đạt loại Giỏi!');
+    }
+</script>
+</html>

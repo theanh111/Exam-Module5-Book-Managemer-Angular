@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Luyện tập tạo form</title>
+    <link rel="stylesheet" type="text/css" href="FormDonGian-P1.css">
+</head>
+<body style="background-color: #D5FEFF">
+<form method="post">
+<table class="bang">
+    <tr>
+        <th class="sothich" colspan="100" bgcolor="FF4C00">SỞ THÍCH CỦA BẠN</th>
+    </tr>
+
+    <tr>
+        <td class="dong" colspan="3"><label for="ten">Họ và tên</label>
+        <input type="text" name="name" id="ten"/></td>
+    </tr>
+
+    <tr>
+        <td class="dong" colspan="3"><label for="mail">Email</label>
+        <input type="text" name="email" id="mail"/></td>
+    </tr>
+    <tr>
+        <td rowspan="4" class="dong"> Sở thích</td>
+        <td class="hoppy">
+            <label for="thethao"><input type="checkbox" name="hoppy" value="sport" id="thethao">Thể thao</label>
+        </td>
+        <td class="hoppy">
+            <label for="nhac"><input type="checkbox" name="hoppy" value="music" id="nhac"/>Âm nhạc</label>
+        </td>
+        <td class="hoppy">
+            <label for="docsach"><input type="checkbox" name="hoppy" value="readbook" id="docsach"/>Đọc sách</label>
+        </td>
+    </tr>
+    <tr>
+        <td class="hoppy">
+            <label for="luotweb"><input type="checkbox" name="hoppy" value="surfweb" id="luotweb"/>Lướt web</label>
+        </td>
+        <td class="hoppy">
+            <label for="choigame"><input type="checkbox" name="hoppy" value="playgame" id="choigame"/>Chơi game</label>
+        </td>
+        <td class="hoppy">
+            <label for="phim"><input type="checkbox" name="hoppy" value="movie" id="phim">Điện ảnh</label>
+        </td>
+    </tr>
+    <tr>
+        <td class="hoppy">
+            <label for="dulich"><input type="checkbox" name="hoppy" value="travel" id="dulich">Du lịch</label>
+        </td>
+    </tr>
+
+    <tr>
+        <td colspan="3" class="button">
+            <button type="submit" name="submit" value="dangky"> Gửi thông tin
+            <button type="reset" name="reset" value="nhaplai"> Nhập lại
+        </td>
+    </tr>
+</table>
+</form>
+</body>
+</html>

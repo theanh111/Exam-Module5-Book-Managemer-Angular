@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Luyện tập cấu trúc điều kiện 02</title>
+</head>
+<body>
+<h1>Viết chương trình tính giá điện.</h1>
+<img src="BangGiaDien.JPG" height="426" width="800" alt="Bảng Giá Điện 2020"/>
+</body>
+<script>
+    let kWh = +prompt('Mời bạn nhập Tổng Công suất Điện năng(kWh) đã tiêu thụ trong tháng vừa qua: ', '');
+    if (kWh <= 50) {
+        payment = kWh * 1285;
+    } if (kWh <= 100) {
+        payment = kWh * 1336;
+        } if (kWh <= 200) {
+            payment = kWh * 1450;
+            } if (kWh <= 300) {
+                payment = kWh * 1797;
+                } if (kWh <= 400) {
+                    payment = kWh * 2035;
+                    } if (kWh > 401) {
+                        payment = kWh * 2120;
+                    }
+    alert('Tổng tiền cần đóng là: ' + payment + " (CHƯA BAO GỒM VAT)");
+</script>
+</html>

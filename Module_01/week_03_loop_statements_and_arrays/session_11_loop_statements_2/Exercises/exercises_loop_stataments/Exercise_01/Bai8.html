@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Luyện tập vòng lặp 01</title>
+</head>
+<body>
+<h1>Bài 8: Game đoán số</h1>
+<hr>
+<label><input type="number" id="range1" placeholder="Nhập số đầu của khoảng"></label>
+<label><input type="number" id="range2" placeholder="Nhập số hai của khoảng"></label>
+<br>
+<br>
+<button onclick="play()">Chơi</button>
+<button onclick="window.location.reload()">Chơi lại</button>
+<br>
+<span id="result1"></span>
+<br>
+<span id="result2"></span>
+<br>
+<span id="warning"></span>
+</body>
+<script>
+    function play() {
+        let rangeMin = parseInt(document.getElementById("range1").value);
+        let rangeMax = parseInt(document.getElementById("range2").value);
+        let randomNumber = +(parseInt((Math.random() * (rangeMax - rangeMin)) + rangeMin));
+        console.log(rangeMin, rangeMax, randomNumber);
+        for (let count = 0; count < 3; count++) {
+            let guessNumber = +prompt("Số bạn đoán là: ");
+            switch (count) {
+                case 0:
+                    alert("Còn 2 lần đoán");
+                    break
+                case 1:
+                    alert("Còn 1 lần đoán");
+                    break;
+                case 2:
+                    alert("Hết lượt đoán!");
+                    break;
+            }
+            if (guessNumber === randomNumber) {
+                document.getElementById("result1").innerHTML = "Số được chọn = " + randomNumber;
+                document.getElementById("result2").innerHTML = "Số bạn đoán = " + guessNumber;
+                alert("Bạn đã đoán đúng!");
+                break;
+                }
+            if (guessNumber > randomNumber) {
+                    alert("Số đoán lớn hơn số được chọn!");
+            }
+            if (guessNumber < randomNumber) {
+                alert("Số đoán nhỏ hơn số được chọn!");
+            }
+            document.getElementById("result1").innerHTML = "Số được chọn = " + randomNumber;
+            document.getElementById("result2").innerHTML = "Số bạn đoán = " + guessNumber;
+            document.getElementById("warning").innerText = "Bấm nút Chơi lại để reset lại toàn bộ!";
+        }
+    }
+</script>
+</html>

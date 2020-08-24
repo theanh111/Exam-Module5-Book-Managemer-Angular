@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Luyện tập cấu trúc điều kiện 02</title>
+</head>
+<body>
+<h1>Viết chương trình tính lãi ngân hàng (lãi mẹ đẻ lãi con) khi biết số tiền ban đầu, số tháng cho vay và lãi xuất hàng tháng.</h1>
+</body>
+<script>
+    let khoanVay = +prompt("Nhập khoảng tiền vay: ");
+    let thangVay = +prompt("Nhập số tháng phải để trả hết tiền vay: ");
+    let laisuatMe = +prompt("Nhập số lãi suất hàng tháng: (%)");
+    let thangTraVayMuon = +prompt("Nhập số tháng nộp tiền vay muộn: ");
+
+    let tienLaiMoiThang =  khoanVay * laisuatMe/100;
+    let tienLaiTongThangVay =  tienLaiMoiThang * thangVay;
+    let tienLaiMoiThangNopMuon =  khoanVay + tienLaiTongThangVay;
+    let tienLai = (khoanVay + tienLaiMoiThang) * laisuatMe/100;
+    let tienLaiSuatCon = thangVay + thangTraVayMuon;
+    alert("Tiền lãi mỗi tháng là: " + tienLaiMoiThang);
+    alert("Tiền lãi sau " + thangVay + " tháng vay là: " + tienLaiMoiThang)
+    alert("Tiền lãi mẹ đẻ tiền lãi con sau " + thangTraVayMuon + " tháng là: " + tienLaiSuatCon);
+</script>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Luyện form cơ bản</title>
+    <link rel="stylesheet" type="text/css" href="FormDonGian-P2.css"/>
+</head>
+<body>
+<form method="post">
+<table class="bang">
+    <tr class="dong1">
+        <th colspan="2">ĐĂNG KÝ HỌC VIÊN</th>
+    </tr>
+
+    <tr>
+        <td colspan="2"><label for="name">Họ và tên</label>
+        <input type="text" name="username" id="name"/></td>
+    </tr>
+
+    <tr>
+        <td><label for="date">Ngày sinh</label>
+        <td><input type="text" name="dateofbirth" size="12px" id="date"/></td>
+    </tr>
+
+    <tr>
+        <td colspan="2">Giới tính
+            <label for="male"><input type="radio" name="gender" value="nam" id="male"/>Nam</label>
+            <label for="female"><input type="radio" name="gender" value="nữ" id="female"/>Nữ</label>
+        </td>
+    </tr>
+    
+    <tr>
+        <td>Địa chỉ</td>
+        <td><label><input type="text" name="address" size="20px"/></label></td>
+    </tr>
+
+    <tr>
+
+        <td>Lớp</td>
+        <td>
+            <select>
+            <label><option> --Chọn lớp-- </option></label>
+            <label><option> 9A </option></label>
+            <label><option> 9B </option></label>
+            <label><option> 9C </option></label>
+            </select>
+        </td>
+    </tr>
+
+    <tr>
+        <td>Email</td>
+        <td>
+            <label><input type="text" name="email" size="14px"></label>
+        </td>
+    </tr>
+
+    <tr>
+
+        <td>Điện thoại</td>
+        <td>
+            <label>
+                <input type="text" name="numberphone" size="14px"/>
+            </label>
+        </td>
+    </tr>
+
+    <tr class="dongcuoi">
+        <td colspan="2">
+            <button type="submit" name="submit" value="dangky"> Đăng ký
+            <button type="reset" name="reset" value="nhaplai"> Nhập lại
+        </td>
+    </tr>
+</table>
+</form>
+</body>
+</html>

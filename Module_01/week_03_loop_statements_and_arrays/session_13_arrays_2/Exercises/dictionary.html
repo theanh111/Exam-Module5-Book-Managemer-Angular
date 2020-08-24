@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Từ điển</title>
+</head>
+<body>
+<h3>Từ Điển Anh - Việt (Nghèo Version)</h3>
+<hr>
+<p>Nhập từ cần tra:</p>
+<label><input type="text" id="search"/></label>
+<button onclick="lookUp()">Translate</button>
+<p id="display"></p>
+</body>
+<script>
+    function lookUp() {
+        let word = document.getElementById("search").value;
+        let english = ["Run", "Book", "Travel", "Sing"];
+        let vietnamese = ["Chạy", "Sách", "Du lịch", "Hát"];
+        let result = "";
+        for (let i = 0; i < english.length; i++) {
+            if (word === vietnamese[i]) {
+                result = " - Tiếng Anh: " + english[i];
+                break;
+            } else if (word === english[i]) {
+                result = " - Tiếng Việt: " + vietnamese[i];
+                break;
+            } else {
+                result = "Không tìm thấy! ";
+            }
+        }
+        document.getElementById("display").innerHTML = result;
+    }
+</script>
+</html>

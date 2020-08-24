@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Máy tính đơn giản</title>
+</head>
+<body>
+<style>
+    td, input {
+        width: 50px;
+        height: 50px;
+        color: #0836FE;
+        font-family: 'Open Sans', sans-serif;
+        font-size: x-large;
+    }
+
+    .nhap {
+        width: 100%;
+        font-size: x-large;
+        text-align: right;
+    }
+
+    table {
+        border: 5px solid black;
+    }
+</style>
+<table border="2" cellspacing="2" cellpadding="20">
+    <tr>
+        <td colspan="4"><input class="nhap" type="text" id="inputstring"></td>
+    </tr>
+    <tr>
+        <td><input type="button" value="1" onclick="button('1')"></td>
+        <td><input type="button" value="2" onclick="button('2')"></td>
+        <td><input type="button" value="3" onclick="button('3')"></td>
+        <td><input type="button" value="+" onclick="button('+')"></td>
+    </tr>
+
+    <tr>
+        <td><input type="button" value="4" onclick="button('4')"></td>
+        <td><input type="button" value="5" onclick="button('5')"></td>
+        <td><input type="button" value="6" onclick="button('6')"></td>
+        <td><input type="button" value="-" onclick="button('-')"></td>
+    </tr>
+
+    <tr>
+        <td><input type="button" value="7" onclick="button('7')"></td>
+        <td><input type="button" value="8" onclick="button('8')"></td>
+        <td><input type="button" value="9" onclick="button('9')"></td>
+        <td><input type="button" value="*" onclick="button('*')"></td>
+    </tr>
+
+    <tr>
+        <td><input type="button" value="C" onclick="reset()"></td>
+        <td><input type="button" value="0" onclick="button('0')"></td>
+        <td><input type="button" value="=" onclick="result('=')"></td>
+        <td><input type="button" value="/" onclick="button('/')"></td>
+
+    </tr>
+</table>
+</body>
+
+<script>
+    function button(val) {
+        document.getElementById('inputstring').value+=val;
+    }
+
+    function result() {
+        let x = document.getElementById('inputstring').value;
+        let y = eval(x);
+        if (y==Infinity) {
+            y = "Math Error"
+        }
+        document.getElementById('inputstring').value = y;
+    }
+
+    function reset() {
+        document.getElementById('inputstring').value='';
+    }
+</script>
+
+</html>

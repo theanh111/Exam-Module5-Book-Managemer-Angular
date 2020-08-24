@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Luyện tập mảng 01</title>
+</head>
+<body>
+</body>
+<script>
+    let primeNums = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29];
+    let size = primeNums.length;
+    let max = primeNums[0];
+    let sum = 0;
+    let Avg;
+    for (let i = 0; i < size; i++) {
+        if (primeNums[i] > max) {
+            max = primeNums[i];
+        }
+    }
+    for (let i = 0; i < size; i++) {
+        sum += primeNums[i];
+        Avg = (sum)/(size);
+    }
+    document.write("Tổng: " + sum + "<br>" + "Trung bình: " + Avg);
+</script>
+</html>

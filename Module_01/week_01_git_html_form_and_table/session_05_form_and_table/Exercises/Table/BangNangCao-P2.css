@@ -1,0 +1,47 @@
+h1 {
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial;
+    color: #0433FF;
+}
+
+table {
+    border: 1px gray;
+    width: 45%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+sub {
+    font-size: xx-small;
+    color: black;
+}
+
+th:nth-child(1) {
+    color: #FF2600;
+}
+
+th:nth-child(7) {
+    color: #0433FF;
+}
+
+.tr1 {
+    font-family: Century Gothic;
+    font-size: smaller;
+}
+
+.cn {
+    color: #FFFFFF !important;
+    background: #FF2600;
+}
+
+.den6 {
+    color: #FFFFFF;
+    background-color: #FFB300;
+}
+
+.bay {
+    color: #FFFFFF !important;
+    background-color: #0433FF;
+}

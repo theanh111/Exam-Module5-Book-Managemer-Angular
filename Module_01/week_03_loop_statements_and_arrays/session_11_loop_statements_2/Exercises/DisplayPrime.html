@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hiển thị các số nguyên tố đầu tiên</title>
+</head>
+<body>
+<h1>Luyện tập sử dụng cấu trúc lặp for/while.</h1>
+<p>Trong phần này, chúng ta sẽ phát triển một ứng dụng cho phép hiển thị 20 số nguyên tố đầu tiên.</p>
+<hr>
+<br>
+<label><input type="number" id="inputNumber" placeholder="Nhập số lượng hiện thị số nguyên tố"></label>
+<label><button type="button" id="btnCheck" onclick="check()">Check</button></label>
+<h3 id="output"></h3>
+<h2 id="result"></h2>
+</body>
+<script>
+    function check() {
+    let numbers = +document.getElementById("inputNumber").value;
+    let count = 0;
+    let N = 2;
+        while (count < numbers) {
+            if (isPrime(N)) {
+                document.getElementById("output").innerHTML = "Các số nguyên tố đó là: ";
+                document.getElementById("result").innerHTML += N + ";";
+                count++;
+            } N = N + 1;
+        }
+    }
+
+    function isPrime(N) {
+        if (N < 2) {
+            return false;
+        }
+        for (let i = 2; i <= Math.sqrt(N); i++) {
+            if (N % i === 0) {
+                return false;
+            }
+        } return true;
+    }
+</script>
+</html>

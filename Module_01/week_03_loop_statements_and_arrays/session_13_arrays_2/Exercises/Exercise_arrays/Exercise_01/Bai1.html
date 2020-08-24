@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Luyện tập mảng 01</title>
+</head>
+<body>
+<h4>
+    Bài 1- Viết chương trình khởi tạo mảng số nguyên gồm 10 phần tử. Chương trình thực hiện tính và hiển thị xem có bao nhiêu số nguyên lớn hơn hoặc bằng 10.
+</h4>
+</body>
+<script>
+    let primeNums = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29];
+    let size = primeNums.length;
+    let max = 10;
+    let primeUnder10 = "";
+    let primeOver10 = "";
+    for (let i = 0; i < size; i++) {
+        if (primeNums[i] >= max) {
+            primeOver10 += "Các SNT > 10: " + primeNums[i] + "<br>";
+        } else if (primeNums[i] <= max) {
+            primeUnder10 += "Các SNT < 10: " + primeNums[i] + "<br>";
+        } else {
+            document.write(a);
+        }
+    }
+    document.write(primeOver10 + "<br>");
+    document.write(primeUnder10 + "<br>");
+</script>
+</html>

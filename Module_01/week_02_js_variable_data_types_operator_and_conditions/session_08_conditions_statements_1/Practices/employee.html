@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Luyện tập với toán tử ba ngôi</title>
+</head>
+<body>
+</body>
+<script>
+
+    // VD cho truoc:
+    // let login = prompt('Who are you?', '');
+    // let message;
+    //
+    // if (login == 'Employee') {
+    //     message = 'Hello';
+    //     alert(message);
+    // } else if (login == 'Director') {
+    //     message = 'Greetings';
+    //     alert(message);
+    // } else if (login == '') {
+    //     message = 'No login';
+    //     alert(message);
+    // } else {
+    //     message = '';
+    //     alert(message);
+    // }
+
+    // Chuyen VD sang toan tu 3 ngoi:
+    let login = prompt('Who are you?', '');
+    let message = (login == 'Employee') ?
+        'Hello' :
+        (login == 'Director') ?
+            'Greetings' :
+            (login == "") ?
+                'No Login':
+                '';
+        alert(message);
+</script>
+</html>

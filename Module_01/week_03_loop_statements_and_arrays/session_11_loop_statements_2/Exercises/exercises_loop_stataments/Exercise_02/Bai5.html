@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Luyện tập vòng lặp 02</title>
+</head>
+<body>
+<h3>Bài 5: Viết chương trình tính lãi ngân hàng (lãi mẹ đẻ lại con) khi biết số tiền ban đầu, số tháng cho vay và lãi xuất hàng tháng.</h3>
+<hr>
+<h3>Nhập số tiền muốn vay</h3>
+<input type="number" id="money" placeholder="Nhập số tiền muốn vay">
+<br>
+<h3>Nhập số tháng trả hết tiền vay</h3>
+<input type="number" id="monthLoan" placeholder="Nhập số tháng trả hết tiền vay">
+<br>
+<h3>Lãi ngân hàng theo tháng (đơn vị %)</h3>
+<input type="number" id="monthInterest" placeholder="Lãi ngân hàng theo tháng (%)">
+<br>
+<br>
+<button id="check" onclick="checkBtn()">Kiểm tra</button>
+<h3 id="result"></h3>
+</body>
+<script>
+
+    function checkBtn() {
+        let startMoney = parseFloat(document.getElementById("money").value);
+        let month = parseInt(document.getElementById("monthLoan").value);
+        let interest = parseFloat(document.getElementById("monthInterest").value);
+        let interestBank = 0;
+        let moneyInterest;
+        let ketqua = document.getElementById("result");
+        for (let i = 1; i <= month; i++) {
+            interestBank = (startMoney * interest) / 100;
+            moneyInterest = startMoney + interestBank;
+            startMoney = moneyInterest;
+        } ketqua.innerHTML = "Số tiền lãi theo " + month + " là bằng " + moneyInterest.toFixed(2);
+    }
+
+</script>
+</html>

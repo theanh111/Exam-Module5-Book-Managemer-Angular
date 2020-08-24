@@ -1,0 +1,31 @@
+table {
+    width: 20%;
+    border-collapse: collapse;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+td, th {
+    padding: 5px;
+    border: 1px solid black;
+}
+
+th {
+    font-family: "Times New Roman";
+    text-align:center;
+    background-color: #FEFB00;
+    border-color: solid black;
+}
+
+.text {
+    font-family: "Times New Roman";
+    text-align: left;
+}
+
+.heading {
+    text-align: center;
+}
+
+h1 {
+    font-size: 45px;
+}

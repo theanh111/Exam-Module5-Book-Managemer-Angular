@@ -1,0 +1,42 @@
+.head1 {
+    font-family: Arial;
+    font-size: 25px;
+}
+
+.question {
+    font-size: small;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.please {
+    font-family: Arial;
+    font-size: 12px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid black;
+}
+
+tr:nth-child(1) {
+    background-color: #E6E6E6;
+}
+
+tr:nth-child(3) {
+    background-color: #E6E6E6;
+}
+
+.ratetext {
+    font-family: Arial;
+    font-size: smaller;
+    text-align: center;
+}
+
+.boxtext {
+    resize: none;
+}

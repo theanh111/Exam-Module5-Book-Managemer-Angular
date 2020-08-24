@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Luyện tập cấu trúc điều kiện 02</title>
+</head>
+<body>
+<h1>Giải phương trình bậc 2 (ax^2 + bx + c = 0 [a!=0])</h1>
+</body>
+<script>
+    let a = +prompt('Nhập số a: ', '');
+    let b = +prompt('Nhập số b: ', '');
+    let c = +prompt('Nhập số c: ', '');
+    let S = (b * b) - [4 * a * c];
+    CanS = Math.sqrt(S);
+    if (a !== 0 && S > 0) {
+        x1 = [(-b) - CanS] / 2 * a;
+        x2 = [(-b) + CanS] / 2 * a;
+        alert('Phương trình có nghiệm thứ 1 là: ' + x1);
+        alert('Phương trình có nghiệm thứ 2 là: ' + x2);
+        } else if (S == 0 && a !== 0) {
+            xKep = (-b)/2 * a;
+            alert('Phương trình có nghiệm kép: ' + xKep);
+    } else {
+        alert('Phương trình vô nghiệm!');
+    }
+</script>
+</html>

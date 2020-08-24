@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Luyện tập mảng 01</title>
+</head>
+<body>
+<h4>Bài 4- Viết chương trình khởi tạo/nhập vào một mảng số nguyên và đảo ngược các phần tử trong mảng đó.</h4>
+</body>
+<script>
+    let nums = [2, 4, 6, 8, 9, 10, 11, 13];
+    let size = nums.length;
+    let first = 0;
+    let last = size - 1;
+    while (first < last) {
+        a = nums[first];
+        nums[first] = nums[last];
+        nums[last] = a;
+        first++;
+        last--;
+    }
+    document.write("Dãy số khi đảo ngược là: " + nums);
+
+</script>
+</html>

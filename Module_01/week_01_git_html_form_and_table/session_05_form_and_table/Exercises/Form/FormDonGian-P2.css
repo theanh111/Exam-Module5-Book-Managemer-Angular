@@ -1,0 +1,21 @@
+textarea {
+    width: 200px;
+    resize: none;
+}
+
+.bang {
+    background-color: #FFFDA9;
+    font-family: arial, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dong1{
+    color: #0836FE;
+    background-color: #D4FDD6;
+    text-align: left;
+}
+
+.dongcuoi {
+    text-align: center;
+}

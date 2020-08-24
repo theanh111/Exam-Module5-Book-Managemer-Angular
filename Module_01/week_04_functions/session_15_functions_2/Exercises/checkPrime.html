@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hàm kiểm tra số nguyên tố</title>
+</head>
+<body>
+<h1>Kiểm tra số nguyên tố</h1>
+<p>Nhập số bất kỳ để kiểm tra</p>
+<input type="number" id="inputNumber"
+       oninput="checkPrime()"/>
+<br>
+<hr>
+Kết quả: <p id="result"></p>
+</body>
+<script>
+
+    // // Cach 1:
+    // function isPrime(number) {
+    //     if (number < 2) {
+    //         return false;
+    //     }
+    //     for (let i = 2; i <= Math.sqrt(number); i++) {
+    //         if (number % i === 0) {
+    //             return false;
+    //         }
+    //     } return true;
+    // }
+    //
+    // function checkPrime() {
+    //     let number = +document.getElementById("inputNumber").value;
+    //     let result = document.getElementById("result");
+    //     if (isPrime(number)) {
+    //         result.innerHTML = number + " là số nguyên tố!";
+    //     } else {
+    //         result.innerHTML = number + " không phải là số nguyên tố!";
+    //     }
+    // }
+
+    // // Cach 2:
+    function isPrime(number) {
+        if (number < 2) {
+            return number + " không phải là số nguyên tố!";
+        }
+        for (let i = 2; i <= Math.sqrt(number); i++) {
+            if (number % i === 0) {
+                return number + " không phải là số nguyên tố!";
+            }
+        } return number + " là số nguyên tố!";
+    }
+
+    let input = prompt("Nhập số: ", "");
+    let check = isPrime(input);
+    alert(check);
+</script>
+</html>

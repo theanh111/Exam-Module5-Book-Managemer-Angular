@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sự kiện bàn phím</title>
+</head>
+<body onload="docReady()">
+<div></div>
+    <img id="nobita" src="https://vignette.wikia.nocookie.net/p__/images/6/65/Nobitatrue.jpg/revision/latest/scale-to-width-down/272?cb=20180929112340&path-prefix=protagonist" style="position:absolute; left:0; top:0;" height="200" width="160"/>
+</div>
+</body>
+    <script>
+        function upArrowPressed() {
+            let obj = document.getElementById("nobita");
+            obj.style.top = parseInt(obj.style.top) - 15 + 'px';
+        }
+
+        function downArrowPressed() {
+            let obj = document.getElementById("nobita");
+            obj.style.top = parseInt(obj.style.top) + 15 + 'px';
+        }
+
+        function leftArrowPressed() {
+            let obj = document.getElementById("nobita");
+            obj.style.left = parseInt(obj.style.left) - 15 + 'px';
+        }
+
+        function rightArrowPressed() {
+            let obj = document.getElementById("nobita");
+            obj.style.left = parseInt(obj.style.left) + 15 + 'px';
+
+        }
+
+        function moveSelection(evt) {
+            switch (evt.keyCode) {
+                case 37:
+                    leftArrowPressed();
+                    break;
+                case 39:
+                    rightArrowPressed();
+                    break;
+                case 38:
+                    upArrowPressed();
+                    break;
+                case 40:
+                    downArrowPressed();
+                    break;
+            }
+        }
+
+        function docReady() {
+            window.addEventListener('keydown', moveSelection);
+        }
+    </script>
+
+</html>

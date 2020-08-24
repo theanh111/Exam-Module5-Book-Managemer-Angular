@@ -1,0 +1,23 @@
+body {
+    background-color: #FFB300;
+}
+
+table {
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+th {
+    font-family: Arial;
+    font-weight: bold;
+}
+
+tr:nth-child(even) td:nth-child(even), tr:nth-child(odd) td:nth-child(odd) {
+    background-color: #FFFFFF;
+}
+
+tr:nth-child(odd) td:nth-child(even), tr:nth-child(even) td:nth-child(odd) {
+    background-color: #000000;
+}

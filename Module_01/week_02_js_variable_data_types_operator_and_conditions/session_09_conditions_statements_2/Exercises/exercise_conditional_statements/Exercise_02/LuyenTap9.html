@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Luyện tập cấu trúc điều kiện 02</title>
+</head>
+<body>
+<h1>Kiểm tra xem 3 số thực (a,b,c) nhập vào có phải là cạnh của một tam giác. Điều kiện để a,b,c là cạnh của một tam giác là:</h1>
+</body>
+<script>
+    let a = +prompt('Mời bạn nhập chiều dài cạnh thứ nhất: ', '');
+    let b = +prompt('Mời bạn nhập chiều dài cạnh thứ hai: ', '');
+    let c = +prompt('Mời bạn nhập chiều dài cạnh thứ 3: ', '');
+    if (a > 0 && b > 0 && c > 0 && a + b > c && b + c > a && a + c > b) {
+        alert('3 cạnh đã nhập là cạnh của một tam giác');
+    } else {
+        alert('3 cạnh đã nhập KHÔNG phải là cạnh của một tam giác!');
+    }
+</script>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính chỉ số cân nặng của cơ thể</title>
+</head>
+<style>
+    table{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    p {
+        font-size: xx-large;
+        font-family: Arial;
+        font-weight: bold;
+    }
+
+    span {
+        font-size: xx-large;
+        font-family: Arial;
+        font-weight: bold;
+    }
+
+    .o1 {
+        font-size: large;
+        font-weight: bolder;
+        font-family: Arial;
+    }
+</style>
+<body>
+<table>
+    <tr>
+        <th class="o1">Nhập cân nặng: </th>
+        <th class="o1">Nhập chiều cao: </th>
+    </tr>
+    <tr>
+        <td><input type="number" id="weight"></td>
+        <td><input type="number" id="height"></td>
+    </tr>
+    <tr>
+        <th colspan="2"><button onclick="display()" id="button">Bấm để xem BMI</button></th>
+    </tr>
+</table>
+<p>BMI CỦA BẠN ĐẠT MỨC: </p>
+<span id="result"></span>
+</body>
+
+    <script>
+        function display() {
+            let wei = parseInt(document.getElementById('weight').value);
+            let hei = parseInt(document.getElementById('height').value);
+            let bmi = wei / ( hei ^ 2 );
+            if (bmi < 18) {
+                document.getElementById('result').innerHTML = ('Underweight(Bạn bi thiếu cân)');
+                } else if (bmi < 25.0) {
+                document.getElementById('result').innerHTML = ('Normal(Bạn bình thường)');
+                        } else if (bmi < 30.0) {
+                document.getElementById('result').innerHTML = ('Overweight(Bạn bị thừa cân)');
+                                    } else {
+                document.getElementById('result').innerHTML = ('Obese(Bạn bì béo phì)');
+            }
+        }
+    </script>
+
+</html>

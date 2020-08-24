@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ứng dụng chuyển đổi tiền tệ</title>
+</head>
+<body>
+<form>
+    <b> Amount </b>
+    <input type="number" id="money"/>
+
+    <b>From Currency</b>
+    <select id="from">
+        <option value="1">VND</option>
+        <option value="23175">USD</option>
+        <option value="218">JPY</option>
+        <option value="27273">EUR</option>
+    </select>
+
+    <b>To Currency</b>
+    <select id="to">
+        <option value="23175">USD</option>
+        <option value="1">VND</option>
+        <option value="218">JPY</option>
+        <option value="27273">EUR</option>
+    </select>
+
+    <button type="button" id="convert" onclick="showResult()"/>Convert</button>
+    <br>
+    <br>
+    <h1>Kết quả</h1> <span id="ketqua"></span>
+</form>
+</body>
+
+<script>
+    function showResult() {
+        amount = document.getElementById('money').value;
+        let vnd = document.getElementById('from').value;
+        let usd = document.getElementById('to').value;
+        let result = amount*vnd/usd;
+        document.getElementById('ketqua').innerHTML= result;
+    }
+</script>
+
+</html>

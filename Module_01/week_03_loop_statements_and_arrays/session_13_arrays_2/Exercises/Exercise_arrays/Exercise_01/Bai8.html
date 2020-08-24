@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Luyện tập mảng 01</title>
+</head>
+<body>
+<h4>Bài 8- Viết chương trình khởi tạo/nhập vào một mảng số nguyên gồm 10 phần tử. Chương trình sắp xếp mảng theo thứ tự giảm dần và hiển thị ra mảng đã được sắp xếp.</h4>
+</body>
+<script>
+    let nums = [6, 7, 1, 25, 9, 3, 0, 23, 11, 4];
+    document.write("Dãy số ban đầu là: " + nums);
+    let size = nums.length;
+    for (let i = 0; i < size - 1; i++) {
+        for (let j = i + 1; j < size ; j++) {
+            if (nums[i] < nums[j]) {
+                let temp = nums[i];
+                    nums[i] = nums[j];
+                    nums[j] = temp;
+            }
+        }
+    }
+    document.write("<br>" + "Dãy số sắp xếp lại: " + nums);
+</script>
+</html>

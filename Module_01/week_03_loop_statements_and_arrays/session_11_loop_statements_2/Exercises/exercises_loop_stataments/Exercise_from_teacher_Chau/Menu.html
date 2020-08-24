@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài toán Menu</title>
+</head>
+<style>
+    p {
+        font-family: Arial;
+        font-size: large;
+        font-weight: bold;
+    }
+</style>
+<body onload="menu()">
+<p id="menulist"></p>
+<hr>
+<h3>Nhập lựa chọn tại ô dưới:</h3>
+<label><input type='text' id='choice'></label>
+<br>
+<br>
+<label><input type='button' onclick='showMenu()' value='Menu'></label>
+<br>
+<hr>
+<h3>OUTPUT:</h3>
+<p id="input1"></p>
+<p id="input2"></p>
+<p id="input3"></p>
+<p id="input4"></p>
+</body>
+
+<script>
+    function menu() {
+        document.getElementById("menulist").innerHTML =
+            "MENU: <br>" +
+            "* Choice 1: Nhập N <br>" +
+            "* Choice 2: Kiểm tra số N có phải số nguyên tố hay không? <br>" +
+            "* Choice 3: Hiển thị N số nguyên tố đầu tiên! <br>" +
+            "* Choice 4: Thoát! <br>"
+    }
+
+    function showMenu(){
+        let choice;
+        do {
+            menu();
+            choice = parseInt(document.getElementById('choice').value);
+            switch (choice) {
+                case 1:
+                    num1 = parseInt(prompt("Nhập số N: ",""));
+                    alert("Bạn đã nhập số N là: " + num1);
+                    document.getElementById("input1").innerHTML = "- Số N đã nhập: " + num1;
+                    break;
+
+                case 2:
+                    num2 = +prompt("Nhập số N: ", "");
+                    if ( ktraSNT( num2 )) {
+                        alert(num2 + ' là số nguyên tố!');
+                        document.getElementById("input2").innerHTML = "- " + num2 + ": là số nguyên tố"
+                    } else {
+                        alert(num2 + " không phải là số nguyên tô!");
+                        document.getElementById("input2").innerHTML = "- " + num2 + ": không phải là số nguyên tố"
+                    }
+                    break;
+
+                case 3:
+                    let num3= +prompt("Nhập vào số lượng (N) số nguyên tố muốn hiển thị: ","");
+                    let start = +prompt("Nhập vào số mà bạn muốn bắt đầu: ","");
+                    listPrime(num3,start);
+                    isPrime(number);
+                    break;
+
+                default:
+                    alert("Tạm biệt, hẹn gặp lại!");
+                    window.location.reload();
+                    break;
+            }
+        } while (choice === 1 && choice === 2 && choice === 3 && choice === 4);
+    }
+
+    function ktraSNT(num2) {
+        if(num2 < 2)
+            return false;
+        for (let i = 2; i <= Math.sqrt(num2); i++) {
+            if(num2 % i == 0)
+                return false;
+        }
+        return true;
+    }
+
+    function isPrime(number){
+        if(number<2) return false;
+        if(number === 2) return true;
+        for (let i = 2; i < number-1; i++) {
+            if(number%i==0){
+                return false;
+            }
+        }
+        return true;
+    }
+
+    function listPrime(num3, startNum){
+        let count = 0;
+        let N = startNum;
+        while (count < num3) {
+            if(isPrime(N)){
+                document.getElementById("input4").innerHTML += N + ",";
+                count++;
+            }
+            N++;
+        }
+        document.getElementById("input3").innerHTML = "- Hiển thị " + num3 + " số nguyên tố là: ";
+    }
+
+
+</script>
+
+</html>

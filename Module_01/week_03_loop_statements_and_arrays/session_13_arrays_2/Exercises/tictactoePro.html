@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">  
+    <title>Cờ caro</title>
+    <link rel="stylesheet" href="tictactoePro.css">
+</head>
+<body>
+<h4>Tic Tac Toe PRO</h4>
+<hr>
+<div id="gameboard"></div>
+
+<script>
+    let flag="x";
+    let game = new Array();
+
+    function drawGameBoard(size) {
+        let string="<table border='1px'>";
+        for(i=0; i<size; i++){
+            string+="<tr>";
+            game[i]=new Array();
+            for(j=0; j<size; j++){
+                string+="<td onclick='changeStatus(this,"+i+","+j+")'>&nbsp;</td>";
+                game[i][j]=0;
+            }
+            string+="</tr>";
+        }
+        string+="</table>";
+        document.getElementById("gameboard").innerHTML=string;
+    }
+    function changeStatus(element,i,j){
+        element.innerHTML=flag;
+
+        if(flag==="x"){
+            game[i][j]=-1;
+            flag="o";
+        }
+        else {
+            game[i][j]=1;
+            flag="x";
+        }
+        checkwin(i,j);
+
+    }
+    function checkwin(i,j){
+        posX=i;
+        posY=j;
+        let count=1;
+        while(game[i][j]===game[i][j-1]){
+            count++;
+            // alert(count);
+            if(count===3){
+                alert("Winner");
+                return;
+            }
+            j--;
+        }
+
+        i=posX;
+        j=posY;
+        while(game[i][j]===game[i][j+1]){
+            count++;
+            if(count===3){
+                alert("Winner");
+                return;
+            }
+            j++;
+        }
+
+        i=posX;
+        j=posY;
+        while(game[i][j]===game[i - 1][j]){
+            count++;
+            if(count===3){
+                alert("Winner");
+                return;
+            }
+            i--;
+        }
+
+        i=posX;
+        j=posY;
+        while(game[i][j]===game[i + 1][j]){
+            count++;
+            if(count===3){
+                alert("Winner");
+                return;
+            }
+            i++;
+        }
+
+        i=posX;
+        j=posY;
+        while(game[i][j]===game[i - 1][j + 1]){
+            count++;
+            if(count===3){
+                alert("Winner");
+                return;
+            }
+            i--;
+            j++;
+        }
+
+        i=posX;
+        j=posY;
+        while(game[i][j]===game[i + 1][j - 1]){
+            count++;
+            if(count===3){
+                alert("Winner");
+                return;
+            }
+            i++;
+            j--;
+        }
+
+        i=posX;
+        j=posY;
+        while(game[i][j]===game[i + 1][j + 1]){
+            count++;
+            if(count===3){
+                alert("Winner");
+                return;
+            }
+            i++;
+            j++;
+        }
+
+        i=posX;
+        j=posY;
+        while(game[i][j]===game[i - 1][j - 1]){
+            count++;
+            if(count===3){
+                alert("Winner");
+                return;
+            }
+            i--;
+            j--;
+        }
+    }
+
+    drawGameBoard(20);
+</script>
+
+</body>
+</html>

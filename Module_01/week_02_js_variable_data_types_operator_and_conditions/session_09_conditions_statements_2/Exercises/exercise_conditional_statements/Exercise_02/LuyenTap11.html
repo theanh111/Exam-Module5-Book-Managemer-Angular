@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Luyện tập cấu trúc điều kiện 02</title>
+</head>
+<body>
+<h1>Viết chương trình tính thuế thu nhập cá nhân.</h1>
+<p style="font-size: xx-large">Kết Quả: <span id="result"></span></p>
+</body>
+<script>
+    let inCome = +prompt('Nhập số tiền lương theo tháng: ','');
+    let essentialMoney = +prompt('Nhập số tiền thiết yếu phải trả theo tháng (VD: tiền nhà, tiền điện,...: ','');
+    taxableIncome = inCome - essentialMoney;
+    if (taxableIncome <= 5000000) {
+        incomeTax = 5000000 * [5/100];
+        } if (taxableIncome > 5000000 && taxableIncome <= 10000000) {
+            incomeTax = [10000000 - 5000000] * [10/100];
+            } if (taxableIncome > 10000000 && taxableIncome <= 18000000) {
+                incomeTax = [18000000 - 10000000] * [15/100];
+                } if (taxableIncome > 18000000 && taxableIncome <= 32000000) {
+                    incomeTax = [32000000 - 18000000] * [20/100];
+                    }
+    document.getElementById('result').innerHTML = incomeTax + '/tháng';
+</script>
+</html>

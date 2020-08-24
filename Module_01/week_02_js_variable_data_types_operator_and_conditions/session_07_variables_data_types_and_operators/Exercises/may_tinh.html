@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ứng dụng máy tính</title>
+</head>
+
+<body>
+    <input type="number" id="num1"/>
+    <input type="number" id="num2"/>
+    <br>
+    <br>
+    <button type="button" id="add" onclick="cong()">Addition(+)</button>
+    <button type="button" id="sub" onclick="tru()">Subtraction(-)</button>
+    <button type="button" id="mul" onclick="nhan()">Multiplication(X)</button>
+    <button type="button" id="div" onclick="chia()">Division(/)</button>
+    <br>
+    <br>
+    Result Divsion <span id="ketqua"></span>
+</body>
+
+<script>
+    function cong() {
+        let a = Number(document.getElementById('num1').value);
+        let b = Number(document.getElementById('num2').value);
+        let c = a + b;
+        document.getElementById('ketqua').innerText= c;
+    }
+
+    function tru() {
+        let a = Number(document.getElementById('num1').value);
+        let b = Number(document.getElementById('num2').value);
+        let c = a - b;
+        document.getElementById('ketqua').innerText= c;
+    }
+
+    function nhan() {
+        let a = Number(document.getElementById('num1').value);
+        let b = Number(document.getElementById('num2').value);
+        let c = a * b;
+        document.getElementById('ketqua').innerText= c;
+    }
+
+    function chia() {
+        a = Number(document.getElementById('num1').value);
+        b = Number(document.getElementById('num2').value);
+        let c = a / b;
+        document.getElementById('ketqua').innerText= c;
+    }
+
+</script>
+
+</html>
