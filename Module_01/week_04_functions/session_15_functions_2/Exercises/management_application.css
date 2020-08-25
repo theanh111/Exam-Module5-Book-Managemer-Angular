@@ -1,5 +1,5 @@
 body {
-    padding: 50px;
+    padding: 150px;
 }
 
 .div1 {
@@ -20,6 +20,7 @@ input[type=text], select {
 }
 
 button {
+    font-weight: bold;
     background-color: #4CAF50;
     color: white;
     padding: 14px 20px;
@@ -29,12 +30,28 @@ button {
     cursor: pointer;
 }
 
-tr:nth-child(1) {
+tr:nth-child(2) {
     background-color: #E6E6E6;
 }
 
-tr:nth-child(3) {
+tr:nth-child(4) {
     background-color: #E6E6E6;
+}
+
+tr:nth-child(6) {
+    background-color: #E6E6E6;
+}
+
+tr:nth-child(8) {
+    background-color: #E6E6E6;
+}
+
+tr:nth-child(10) {
+    background-color: #E6E6E6;
+}
+
+table, th {
+    font-size: x-large;
 }
 
 table {
