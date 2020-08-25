@@ -2,9 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Luyện tập tạo và sử dụng hàm 02</title>
 </head>
 <body>
-
+<h4>Bài 3: Viết hàm tính giai thừa của một số nguyên bất kỳ được đưa vào. Gọi hàm vừa xây dựng được.</h4>
 </body>
+<script>
+    function calculateFactorial (number) {
+        let temp = 1;
+        if (number === 0) {
+            alert("Giai thừa của " + number + " luôn = 1");
+        } else {
+            for (let i = 1; i <= number ; i++) {
+                temp = temp * i;
+            }
+        }
+        alert("Giai thừa của là " + number + " là: " + temp);
+    }
+
+    let a = +prompt("Nhập một số bất kỳ: ","");
+    calculateFactorial(a);
+</script>
 </html>
