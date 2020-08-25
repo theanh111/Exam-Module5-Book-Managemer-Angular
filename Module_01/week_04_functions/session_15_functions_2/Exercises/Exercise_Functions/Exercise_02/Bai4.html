@@ -2,9 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Luyện tập tạo và sử dụng hàm 02</title>
 </head>
 <body>
-
+<h4>Bài 4: Viết hàm kiểm tra xem ký tự nhập vào có phải là ký tự số không. Nếu là ký tự số hàm trả về true, ngược lại trả về false.</h4>
 </body>
+<script>
+    function checkCharacter(string) {
+        let number = "0123456789";
+        for (let i = 0; i < string.length; i++) {
+            if (number.indexOf(string[i]) >= 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    let inputChar = prompt("Nhập ký tự để kiểm tra: ", "");
+    if (checkCharacter(inputChar)) {
+        alert("Bạn vừa nhập ký tự!");
+    } else {
+        alert("Bạn vừa nhập ký số!");
+    }
+</script>
 </html>
