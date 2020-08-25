@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Luyện tập tạo và sử dụng hàm 02</title>
+</head>
+<body>
+<h4>Bài 7: Viết hàm truyền vào 2 số nguyên bất kì, thực hiện đổi chỗ hai số nguyên đó.</h4>
+</body>
+<script>
+    function swapIntegerNumber(num1, num2) {
+        alert("Trước hoán đổi: " + num1 + " và " + num2);
+        let temp = num1;
+        num1 = num2;
+        num2 = temp;
+        alert("Sau hoán đổi: " + num1 + " và " + num2);
+    }
+
+    let a = +prompt("Nhập số nguyên thứ nhất: ", "");
+    let b = +prompt("Nhập số nguyên thứ hai: ", "");
+    swapIntegerNumber(a,b);
+</script>
+</html>
