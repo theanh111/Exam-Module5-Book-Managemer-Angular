@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Luyện tập tạo và sử dụng hàm 02</title>
+</head>
+<body>
+<h4>Bài 2: Viết hàm tính diện tích, hàm tính chu vi hình tròn. Gọi hàm vừa xây dựng được</h4>
+</body>
+<script>
+    function areaCircle (radius) {
+        numPI = Math.PI;
+        let area = numPI * (radius * radius);
+        alert("Diện tích hình tròn với bán kính " + radius + " là: " + area.toFixed(2));
+    }
+
+    function perimeterCircle (radius) {
+        numPI = Math.PI;
+        let perimeter = 2 * radius * numPI;
+        alert("Chu vi hình tròn với bán kính " + radius + " là: " + perimeter.toFixed(2));
+    }
+
+    let a = +prompt("Nhập bán kính hình tròn: ","");
+    areaCircle(a);
+    perimeterCircle(a);
+</script>
+</html>

@@ -8,7 +8,11 @@ let drinksName = ["Cafe Sữa Đá",
     "Matcha Latte",
     "Chocolate Latte",
     "Cacao"];
-drawTable(drinksName);
+
+
+function displayDrinks() {
+    drawTable(drinksName);
+}
 
 function drawTable(array) {
     let table;
@@ -33,21 +37,21 @@ function drawTable(array) {
 
 function addDrinks() {
     let inputDrink = document.getElementById("adddrinks").value;
-    drinksName[drinksName.length] = inputDrink;
     if (inputDrink === "" || inputDrink === " ") {
         alert("Please input name of your drink!");
     } else {
-        drawTable(drinksName);
+        drinksName[drinksName.length] = inputDrink;
     }
-
+    drawTable(drinksName);
 }
 
 
 function editDrinks(currentIndex) {
     let editName = prompt("Changing your drink's name here: ","");
-    drinksName[currentIndex] = editName;
     if (editName === "" || editName === " ") {
         alert("Please type something!");
+    } else {
+        drinksName[currentIndex] = editName;
     }
     drawTable(drinksName);
 }
