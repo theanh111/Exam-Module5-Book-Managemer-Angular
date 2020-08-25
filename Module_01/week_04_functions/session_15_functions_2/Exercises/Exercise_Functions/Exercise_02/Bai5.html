@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Luyện tập tạo và sử dụng hàm 02</title>
+</head>
+<body>
+<h4>Bài 5: Viết hàm nhận vào 3 số nguyên bất kỳ, trả về số nguyên có giá trị nhỏ nhất.</h4>
+</body>
+<script>
+    function checkMin(a, b, c) {
+        if (a < b && a < c) {
+            alert("Số thứ nhất = " + a + " là số nhỏ nhất!");
+        } else if (b < a && b < c) {
+            alert("Số thứ hai = " + b + " là số nhỏ nhất!");
+        } else {
+            alert("Số thứ ba = " + c + " là số nhỏ nhất!");
+        }
+    }
+
+    let num1 = +prompt("Nhập số thứ nhất: ", "");
+    let num2 = +prompt("Nhập số thứ hai: ", "");
+    let num3 = +prompt("Nhập số thứ ba: ", "");
+    checkMin(num1, num2, num3);
+</script>
+</html>
