@@ -6,12 +6,12 @@
 </head>
 <body>
 <h1>Kiểm tra số nguyên tố</h1>
-<p>Nhập số bất kỳ để kiểm tra</p>
-<input type="number" id="inputNumber"
-       oninput="checkPrime()"/>
-<br>
-<hr>
-Kết quả: <p id="result"></p>
+<!--<p>Nhập số bất kỳ để kiểm tra</p>-->
+<!--<input type="number" id="inputNumber"-->
+<!--       oninput="checkPrime()"/>-->
+<!--<br>-->
+<!--<hr>-->
+<!--Kết quả: <p id="result"></p>-->
 </body>
 <script>
 
@@ -49,7 +49,7 @@ Kết quả: <p id="result"></p>
         } return number + " là số nguyên tố!";
     }
 
-    let input = prompt("Nhập số: ", "");
+    let input = prompt("Nhập số để kiểm tra: ", "");
     let check = isPrime(input);
     alert(check);
 </script>

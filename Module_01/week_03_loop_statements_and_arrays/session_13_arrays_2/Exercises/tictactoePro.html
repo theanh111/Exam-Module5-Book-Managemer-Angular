@@ -16,10 +16,10 @@
 
     function drawGameBoard(size) {
         let string="<table border='1px'>";
-        for(i=0; i<size; i++){
+        for(let i=0; i<size; i++){
             string+="<tr>";
             game[i]=new Array();
-            for(j=0; j<size; j++){
+            for(let j=0; j<size; j++){
                 string+="<td onclick='changeStatus(this,"+i+","+j+")'>&nbsp;</td>";
                 game[i][j]=0;
             }
