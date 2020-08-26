@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Xây dựng lớp Date</title>
+</head>
+<body>
+
+</body>
+<script>
+    let MyDate = function (day, month, year) {
+        this.day = parseInt(day);
+        this.month = parseInt(month);
+        this.year = parseInt(year);
+
+        this.getDay = function () {
+            return this.day;
+        }
+        this.getMonth = function () {
+            return this.month;
+        }
+        this.getYear = function () {
+            return this.year;
+        }
+
+        this.setDay = function (day) {
+            this.day = parseInt(day);
+        }
+
+        this.setMonth = function (month) {
+            this.month = parseInt(month);
+        }
+
+        this.setYear = function (year) {
+            this.year = parseInt(year);
+        }
+
+        this.setDate = function (day, month, year) {
+            this.day = parseInt(day);
+            this.month = parseInt(month);
+            this.year = parseInt(year);
+        }
+
+        this.toString = function () {
+            return this.day + "/" + this.month + "/" + this.year;
+        }
+    }
+
+    // // Test 1:
+    // let date = new MyDate(2, 2, 2007);
+    // let day = date.getDay(10);
+    // let month = date.getMonth(10);
+    // let year = date.getYear(2019);
+    // alert(day + "/" + month + "/" + year);
+
+    // // Test 2:
+    // let date = new MyDate();
+    // date.setDay(10);
+    // date.setMonth(12);
+    // date.setYear(2019);
+    // let day = date.getDay();
+    // let month = date.getMonth();
+    // let year = date.getYear();
+    // alert(day + "/" + month + "/" + year);
+
+    // // Test 3:
+    // let day = +prompt("Nhập ngày: ", "");
+    // let month = +prompt("Nhập tháng: ", "");
+    // let year = +prompt("Nhập năm: ", "");
+    // let date = new MyDate();
+    // date.setDate(day, month, year);
+    // alert(day + "/" + month  + "/" + year);
+
+    // // Test 4:
+    let date = new MyDate(10,5,2020);
+    let display = date.toString()
+    alert(display);
+
+</script>
+</html>
