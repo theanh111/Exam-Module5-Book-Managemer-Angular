@@ -18,10 +18,10 @@
 <script>
     let Temperature = function (celcius) {
         this.convertF = function () {
-            return (celcius * 1.8 + 32);
+            return celcius * 1.8 + 32;
         }
         this.convertKelvin = function () {
-            return (celcius + 273.15);
+            return celcius + 273.15;
         }
     }
 
