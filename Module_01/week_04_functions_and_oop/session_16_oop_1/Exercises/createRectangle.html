@@ -38,6 +38,10 @@
     function drawRect() {
         let height = +prompt("Enter Rectangle's height: ","");
         let width = +prompt("Enter Rectangle's width: ", "");
+        while (height < 0 || width < 0) {
+            height = +prompt("Please enter Rectangle's height bigger than 0: ","");
+            width = +prompt("Please enter Rectangle's width than 0: ", "");
+        }
         let rect = new Rectangle(height, width);
         let area = rect.getArea();
         let perimeter = rect.getPerimeter();
@@ -49,10 +53,6 @@
     function reset() {
         window.location.reload();
     }
-
-
-
-
 
 </script>
 </html>
