@@ -23,7 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd0c0bcf-a19e-4700-accc-1dbb259d085b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_16_oop_1/Exercises/phone_Description/phoneDescription.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/Practices/flashlight/flashLight.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/Practices/flashlight/flashLight.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_16_oop_1/Exercises/phone_Description/phoneDescription.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_16_oop_1/Exercises/phone_Description/phoneDescription.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_16_oop_1/Exercises/phone_Description/phoneDescription.js" beforeDir="false" afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_16_oop_1/Exercises/phone_Description/phoneDescription.js" afterDir="false" />
@@ -36,9 +37,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
-        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -61,11 +62,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CodeGym\Module_01\week_04_functions_and_oop\session_17_oop_2\Practices\flashlight" />
       <recent name="D:\CodeGym\Module_01\week_04_functions_and_oop\session_16_oop_1\Exercises\phone_Description" />
       <recent name="D:\CodeGym\Module_01\week_04_functions_and_oop\session_16_oop_1\Exercises\temperature_Description" />
       <recent name="D:\CodeGym\Module_01\week_04_functions_and_oop\session_16_oop_1\Exercises\create_Rectangle" />
       <recent name="D:\CodeGym\Module_01\week_04_functions\session_15_functions_2\Exercises" />
-      <recent name="D:\CodeGym\Module_01\week_04_functions\session_15_functions_2\Exercises\Exercise_Functions" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -83,7 +84,8 @@
       <workItem from="1598431088755" duration="1585000" />
       <workItem from="1598489874965" duration="312000" />
       <workItem from="1598490234507" duration="17929000" />
-      <workItem from="1598576179137" duration="4443000" />
+      <workItem from="1598576179137" duration="7862000" />
+      <workItem from="1598596654492" duration="1333000" />
     </task>
     <servers />
   </component>
