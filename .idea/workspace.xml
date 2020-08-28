@@ -23,11 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd0c0bcf-a19e-4700-accc-1dbb259d085b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/Practices/flashlight/flashLight.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/Practices/flashlight/flashLight.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/Exercises/simpleGame/objects" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_16_oop_1/Exercises/phone_Description/phoneDescription.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_16_oop_1/Exercises/phone_Description/phoneDescription.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_16_oop_1/Exercises/phone_Description/phoneDescription.js" beforeDir="false" afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_16_oop_1/Exercises/phone_Description/phoneDescription.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/Exercises/simpleGame/objects/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/Exercises/simpleGame/objects/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,11 +45,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1gY5lj8aE0TWwErs0ipPBaYthhX" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -85,7 +87,7 @@
       <workItem from="1598489874965" duration="312000" />
       <workItem from="1598490234507" duration="17929000" />
       <workItem from="1598576179137" duration="7862000" />
-      <workItem from="1598596654492" duration="1333000" />
+      <workItem from="1598596654492" duration="2876000" />
     </task>
     <servers />
   </component>
@@ -103,6 +105,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="93" y="100" width="774" height="847" key="DiffContextDialog" timestamp="1598318388620">
