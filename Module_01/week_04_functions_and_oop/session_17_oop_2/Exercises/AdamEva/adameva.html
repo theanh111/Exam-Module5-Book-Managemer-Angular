@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+</body>
+<script src="Apple.js"></script>
+<script src="Human.js"></script>
+<script>
+    let apple = new Apple();
+    let adam = new Human("Adam", true, 80);
+    let eva = new Human("Eva", false, 50);
+    for (let i = 0; i < 5; i++) {
+        adam.eatApple(apple);
+        eva.eatApple(apple);
+    }
+
+</script>
+
+</html>
