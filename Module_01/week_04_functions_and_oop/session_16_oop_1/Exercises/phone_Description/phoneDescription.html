@@ -3,21 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <title>Xây dựng lớp mô tả điện thoại</title>
+    <link rel="stylesheet" href="phoneDescription.css">
 </head>
 <body>
-<div>
-    <h3>Iphone</h3>
-    <textarea style="resize: none; width: 400px; height: 100px"></textarea>
-    <br>
-    <button>Sent</button>
-</div>
-<br>
-<div>
-    <h3>Nokia</h3>
-    <textarea style="resize: none; width: 400px; height: 100px"></textarea>
-    <br>
-    <button>Sent</button>
-</div>
+<table cellspacing="10" cellpadding="10">
+    <tr>
+        <td>
+            <h2>--Iphone--</h2>
+            <button onclick="turnOn1()">Turn On</button>
+            <br>
+            <button onclick="turnOff1()">Turn Off</button>
+            <br>
+            <button onclick="charge1()">Charge This Phone</button>
+            <h3>○ Phone's Status:</h3>
+            <p>- ON/OFF: <span id="status1"></span></p>
+            <p>- Battery: <span>100%</span></p>
+            <p>- Charge: <span id="chargePhone1"></span></p>
+            <h3>○ New Message:</h3>
+            <label><textarea oninput="composeMessage1()"></textarea></label>
+            <br>
+            <button>Sent</button>
+            <h3>○ Inbox:</h3>
+            <p id="inbox1"></p>
+            <h3>○ Send:</h3>
+            <p id="send1"></p>
+            <h3>○ Draft:</h3>
+            <p id="draft1"></p>
+        </td>
+
+        <td width="350px"></td>
+
+        <td>
+            <h2>--Nokia--</h2>
+            <button onclick="turnOn2()">Turn On</button>
+            <br>
+            <button onclick="turnOff2()">Turn Off</button>
+            <br>
+            <button onclick="charge2()">Charge This Phone</button>
+            <h3>○ Phone's Status:</h3>
+            <p>- ON/OFF: <span id="status2"></span></p>
+            <p>- Battery: <span>100%</span></p>
+            <p>- Charge: <span id="chargePhone2"></span></p>
+            <h3>○ New Message:</h3>
+            <label><textarea oninput="composeMessage2()"></textarea></label>
+            <br>
+            <button>Sent</button>
+            <h3>○ Inbox:</h3>
+            <p id="inbox2"></p>
+            <h3>○ Send:</h3>
+            <p id="send2"></p>
+            <h3>○ Draft:</h3>
+            <p id="draft2"></p>
+        </td>
+    </tr>
+</table>
 </body>
+<script>
+    function charge1 () {
+        let iphone = new Mobile("chargePhone1");
+        iphone.chargeMobile();
+    }
+
+    function charge2 () {
+        let nokia = new Mobile("chargePhone2");
+        nokia.chargeMobile();
+    }
+
+    function turnOn1 () {
+        let iphone = new Mobile("status1");
+        iphone.turnOn();
+    }
+
+    function turnOn2 () {
+        let nokia = new Mobile("status2");
+        nokia.turnOn();
+    }
+
+    function turnOff1 () {
+        let iphone = new Mobile("status1");
+        iphone.turnOff();
+    }
+
+    function turnOff2 () {
+        let nokia = new Mobile("status2");
+        nokia.turnOff();
+    }
+
+</script>
 <script src="phoneDescription.js"></script>
 </html>
