@@ -23,14 +23,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd0c0bcf-a19e-4700-accc-1dbb259d085b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_16_oop_1/vidu/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_16_oop_1/vidu/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/test/index2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_16_oop_1/vidu/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/test/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_16_oop_1/vidu/userManage.js" beforeDir="false" afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/test/userManage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/Exercises/simpleGame/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/Exercises/simpleGame/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/Exercises/simpleGame/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/Exercises/simpleGame/objects" beforeDir="false" afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/Exercises/simpleGame/objects" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/Exercises/simpleGame/objects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/Exercises/simpleGame/objects/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/Exercises/simpleGame/objects/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/Exercises/simpleGame/objects/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/Exercises/simpleGame/objects/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/Exercises/simpleGame/objects/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/Exercises/simpleGame/objects/pikachu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/Exercises/simpleGame/objects/script.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +47,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/Exercises/simpleGame/objects" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1gY5lj8aE0TWwErs0ipPBaYthhX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -69,11 +69,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CodeGym\Module_01\week_04_functions_and_oop\session_17_oop_2\Exercises\simpleGame" />
       <recent name="D:\CodeGym\Module_01\week_04_functions_and_oop\session_17_oop_2" />
       <recent name="D:\CodeGym\Module_01\week_04_functions_and_oop\session_17_oop_2\Practices\flashlight" />
       <recent name="D:\CodeGym\Module_01\week_04_functions_and_oop\session_16_oop_1\Exercises\phone_Description" />
       <recent name="D:\CodeGym\Module_01\week_04_functions_and_oop\session_16_oop_1\Exercises\temperature_Description" />
-      <recent name="D:\CodeGym\Module_01\week_04_functions_and_oop\session_16_oop_1\Exercises\create_Rectangle" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -93,7 +93,7 @@
       <workItem from="1598490234507" duration="17929000" />
       <workItem from="1598576179137" duration="7862000" />
       <workItem from="1598596654492" duration="6387000" />
-      <workItem from="1598670417311" duration="1670000" />
+      <workItem from="1598670417311" duration="1896000" />
     </task>
     <servers />
   </component>
