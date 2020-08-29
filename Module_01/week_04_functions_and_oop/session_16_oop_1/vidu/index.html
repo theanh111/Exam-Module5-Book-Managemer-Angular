@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="user.js"></script>
+    <script src="userManage.js"></script>
+</head>
+<body>
+<form action="">
+    <p>Username</p>
+    <input type="text" id="username">
+    <p>Password</p>
+    <input type="password" id="password">
+    <br>
+    <button type="button" onclick="checkLogin()">Login</button>
+    <button type="button" onclick="register()">Register</button>
+</form>
+</body>
+<script>
+    let userManage = new UserManage();
+    function checkLogin () {
+        let username = document.getElementById("username").value;
+        let password = document.getElementById("password").value;
+        userManage.loadData();
+        if (userManage.checkLogin(username, password)) {
+            alert("Thanh cong!");
+            location.href = "index2.html";
+        } else {
+            alert("Thong tin sai");
+        }
+    }
+
+    function register () {
+        let username = document.getElementById("username").value;
+        let password = document.getElementById("password").value;
+        let user = new User (username, password);
+        userManage.addUser(user);
+        userManage.saveData();
+        console.log(userManage.users);
+    }
+</script>
+</html>

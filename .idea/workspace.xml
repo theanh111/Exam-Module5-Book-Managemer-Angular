@@ -23,11 +23,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd0c0bcf-a19e-4700-accc-1dbb259d085b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/Exercises/AdamEva/Apple.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/Exercises/AdamEva/Human.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/Exercises/AdamEva/adameva.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_16_oop_1/Practices/funnyCircle(bonus).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_16_oop_1/vidu/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_16_oop_1/vidu/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_16_oop_1/vidu/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_16_oop_1/vidu/userManage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_16_oop_1/Practices/funnyCircle.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_16_oop_1/Practices/funnyCircle.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/Exercises/simpleGame/objects" beforeDir="false" afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/Exercises/simpleGame/objects" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/Exercises/simpleGame/objects/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/Exercises/simpleGame/objects/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +52,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1gY5lj8aE0TWwErs0ipPBaYthhX" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -89,7 +94,8 @@
       <workItem from="1598489874965" duration="312000" />
       <workItem from="1598490234507" duration="17929000" />
       <workItem from="1598576179137" duration="7862000" />
-      <workItem from="1598596654492" duration="4424000" />
+      <workItem from="1598596654492" duration="6387000" />
+      <workItem from="1598670417311" duration="971000" />
     </task>
     <servers />
   </component>
@@ -116,14 +122,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="93" y="100" width="774" height="847" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598318388620" />
-    <state x="136" y="244" key="run.anything.popup" timestamp="1598522969475">
+    <state x="136" y="244" key="run.anything.popup" timestamp="1598606536384">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="136" y="244" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598522969475" />
-    <state x="143" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1598494037209">
+    <state x="136" y="244" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598606536384" />
+    <state x="143" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1598606597426">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="143" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598494037209" />
+    <state x="143" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598606597426" />
     <state x="682" y="432" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1598346318640">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
