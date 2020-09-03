@@ -3,20 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <script src="user.js"></script>
-    <script src="userManage.js"></script>
+    <link rel="stylesheet" href="css.css">
 </head>
 <body>
-<form action="">
-    <p>Username</p>
-    <input type="text" id="username">
-    <p>Password</p>
-    <input type="password" id="password">
-    <br>
-    <button type="button" onclick="checkLogin()">Login</button>
-    <button type="button" onclick="register()">Register</button>
-</form>
+
+
+<div class="background">
+    <div style="height: 2px; margin-right: auto; margin-left: auto">
+        <img src="test.png" style = "width: 200px" alt="logomoneytree">
+    </div>
+    <div class="form">
+        <form action="">
+            <p>Username</p>
+            <label><input type="text" id="username"></label>
+            <p>Password</p>
+            <label><input type="password" id="password"></label>
+            <br>
+            <br>
+            <button type="button" onclick="checkLogin()">Login</button>
+            <button type="button" onclick="register()">Register</button>
+        </form>
+    </div>
+
+</div>
+
 </body>
+<script src="user.js"></script>
+<script src="userManage.js"></script>
 <script>
     let userManage = new UserManage();
     function checkLogin () {
@@ -39,5 +52,6 @@
         userManage.saveData();
         console.log(userManage.users);
     }
+    let user = new User();
 </script>
 </html>
