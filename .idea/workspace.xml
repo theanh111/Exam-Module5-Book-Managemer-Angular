@@ -23,34 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd0c0bcf-a19e-4700-accc-1dbb259d085b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Module_01/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_01/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/Exercises/switchButton/switchButton.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/Exercises/switchButton/switchButton.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/casestudy/css/form.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/casestudy/css/mainboard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/casestudy/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/casestudy/images/background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/casestudy/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/casestudy/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/casestudy/js/mainboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/casestudy/js/register.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/casestudy/js/userManage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/casestudy/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/casestudy/mainboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/casestudy/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/test/background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/test/css.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/test/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/test/page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/test/test.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/test/test.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/test/test1/expense-manager" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_15_functions_2/Exercises/management_application.css" beforeDir="false" afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_15_functions_2/Exercises/management_application.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/test/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/test/index2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/casestudy/css/mainboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/casestudy/css/mainboard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/casestudy/js/mainboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/casestudy/js/mainboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/casestudy/mainboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/casestudy/mainboard.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +62,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/casestudy" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -127,7 +104,7 @@
       <workItem from="1598943424655" duration="1196000" />
       <workItem from="1598944683450" duration="11480000" />
       <workItem from="1599054836361" duration="1420000" />
-      <workItem from="1599094169516" duration="14582000" />
+      <workItem from="1599094169516" duration="21186000" />
     </task>
     <servers />
   </component>
@@ -158,6 +135,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="93" y="100" width="774" height="847" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598318388620" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1599115437501">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1599115437501" />
     <state x="136" y="244" key="run.anything.popup" timestamp="1599099825607">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
