@@ -1,11 +1,11 @@
-function User(username,password) {
-        this.username = username;
-        this.password = password;
+function User(username, password) {
+    this.username = username;
+    this.password = password;
 }
 
 function checkCharacter(username) {
     let specialChar = "^&*()%$#@!~ ";
-    for (let i = 0; i < username.length; i++){
+    for (let i = 0; i < username.length; i++) {
         if (specialChar.indexOf(username[i]) >= 0)
             return false;
     }

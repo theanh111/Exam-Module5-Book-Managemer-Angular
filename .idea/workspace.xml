@@ -23,9 +23,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd0c0bcf-a19e-4700-accc-1dbb259d085b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/casestudy/js/class.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module_01/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module_01/test.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/casestudy/css/mainboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/casestudy/css/mainboard.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/casestudy/js/mainboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/casestudy/js/mainboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/casestudy/js/register.js" beforeDir="false" afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/casestudy/js/register.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/casestudy/mainboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/casestudy/mainboard.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,8 +41,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -66,15 +70,15 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\CodeGym\Module_01\week_04_functions_and_oop\session_17_oop_2\casestudy" />
-      <recent name="D:\CodeGym\Module_01\week_04_functions_and_oop\session_17_oop_2\test" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\CodeGym\Module_01\week_04_functions_and_oop\session_17_oop_2\casestudy\css" />
       <recent name="D:\CodeGym\Module_01\week_04_functions_and_oop\session_17_oop_2\casestudy" />
       <recent name="D:\CodeGym\Module_01\week_04_functions_and_oop\session_17_oop_2\casestudy\images" />
       <recent name="D:\CodeGym\Module_01\week_04_functions_and_oop\session_17_oop_2\casestudy\js" />
+      <recent name="D:\CodeGym\Module_01\week_04_functions_and_oop\session_17_oop_2\test" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CodeGym\Module_01\week_04_functions_and_oop\session_17_oop_2\casestudy" />
       <recent name="D:\CodeGym\Module_01\week_04_functions_and_oop\session_17_oop_2\test" />
     </key>
   </component>
@@ -104,7 +108,9 @@
       <workItem from="1598943424655" duration="1196000" />
       <workItem from="1598944683450" duration="11480000" />
       <workItem from="1599054836361" duration="1420000" />
-      <workItem from="1599094169516" duration="21186000" />
+      <workItem from="1599094169516" duration="29210000" />
+      <workItem from="1599146128993" duration="1683000" />
+      <workItem from="1599180801070" duration="4472000" />
     </task>
     <servers />
   </component>
@@ -139,10 +145,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1599115437501" />
-    <state x="136" y="244" key="run.anything.popup" timestamp="1599099825607">
+    <state x="136" y="244" key="run.anything.popup" timestamp="1599181651487">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="136" y="244" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599099825607" />
+    <state x="136" y="244" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599181651487" />
     <state x="143" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1598945731702">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
