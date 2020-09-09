@@ -23,14 +23,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd0c0bcf-a19e-4700-accc-1dbb259d085b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/casestudy/js/class.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module_01/test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module_01/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/casestudy/css/mainboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/casestudy/css/mainboard.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/casestudy/js/mainboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/casestudy/js/mainboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/casestudy/js/register.js" beforeDir="false" afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/casestudy/js/register.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/casestudy/mainboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module_01/week_04_functions_and_oop/session_17_oop_2/casestudy/mainboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CodeGym.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module_01/week_02_js_variable_data_types_operator_and_conditions/session_07_variables_data_types_and_operators/Practices/Toantu.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module_01/week_02_js_variable_data_types_operator_and_conditions/session_07_variables_data_types_and_operators/Practices/Toantu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module_01/week_02_js_variable_data_types_operator_and_conditions/session_08_conditions_statements_1/Practices/LeapYear.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module_01/week_02_js_variable_data_types_operator_and_conditions/session_08_conditions_statements_1/Practices/LeapYear.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module_01/week_02_js_variable_data_types_operator_and_conditions/session_08_conditions_statements_1/Practices/sign.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module_01/week_02_js_variable_data_types_operator_and_conditions/session_08_conditions_statements_1/Practices/sign.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module_01/week_02_js_variable_data_types_operator_and_conditions/session_09_conditions_statements_2/Exercises/TinhSoNgay.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module_01/week_02_js_variable_data_types_operator_and_conditions/session_09_conditions_statements_2/Exercises/TinhSoNgay.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module_01/week_02_js_variable_data_types_operator_and_conditions/session_09_conditions_statements_2/Exercises/exercise_conditional_statements/Exercise_02/LuyenTap6.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module_01/week_02_js_variable_data_types_operator_and_conditions/session_09_conditions_statements_2/Exercises/exercise_conditional_statements/Exercise_02/LuyenTap6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module_01/week_03_loop_statements_and_arrays/session_12_arrays_1/Practices/findMaxValue.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module_01/week_03_loop_statements_and_arrays/session_12_arrays_1/Practices/findMaxValue.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module_01/week_05_practice/findMin/findMin.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module_01/week_05_practice/findMin/findMin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module_01/week_05_practice/findMin/findMin.js" beforeDir="false" afterPath="$PROJECT_DIR$/Module_01/week_05_practice/findMin/findMin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module_02/JAVAPracticeSystemTime/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module_02/JAVAPracticeSystemTime/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module_02/JAVAPracticeSystemTime/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module_02/JAVAPracticeSystemTime/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module_02/JAVAPracticeSystemTime/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module_02/JAVAPracticeSystemTime/JAVAPracticeSystemTime.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module_02/JAVAPracticeSystemTime/out/production/JAVAPracticeSystemTime/SystemTime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module_02/JAVAPracticeSystemTime/src/SystemTime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module_02/JAVA_Practice_SystemTime/src/SystemTime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module_02/test/src/SystemTime.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +57,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -70,15 +87,15 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CodeGym\Module_01\week_04_functions_and_oop\session_17_oop_2\casestudy" />
+      <recent name="D:\CodeGym\Module_01\week_04_functions_and_oop\session_17_oop_2\test" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\CodeGym\Module_01\week_04_functions_and_oop\session_17_oop_2\casestudy\css" />
       <recent name="D:\CodeGym\Module_01\week_04_functions_and_oop\session_17_oop_2\casestudy" />
       <recent name="D:\CodeGym\Module_01\week_04_functions_and_oop\session_17_oop_2\casestudy\images" />
       <recent name="D:\CodeGym\Module_01\week_04_functions_and_oop\session_17_oop_2\casestudy\js" />
-      <recent name="D:\CodeGym\Module_01\week_04_functions_and_oop\session_17_oop_2\test" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\CodeGym\Module_01\week_04_functions_and_oop\session_17_oop_2\casestudy" />
       <recent name="D:\CodeGym\Module_01\week_04_functions_and_oop\session_17_oop_2\test" />
     </key>
   </component>
@@ -110,7 +127,10 @@
       <workItem from="1599054836361" duration="1420000" />
       <workItem from="1599094169516" duration="29210000" />
       <workItem from="1599146128993" duration="1683000" />
-      <workItem from="1599180801070" duration="4472000" />
+      <workItem from="1599180801070" duration="4687000" />
+      <workItem from="1599441770017" duration="18585000" />
+      <workItem from="1599639613441" duration="159000" />
+      <workItem from="1599640329260" duration="5000" />
     </task>
     <servers />
   </component>
@@ -141,6 +161,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="93" y="100" width="774" height="847" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598318388620" />
+    <state x="740" y="264" key="FileChooserDialogImpl" timestamp="1599185451895">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="264" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599185451895" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1599115437501">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
