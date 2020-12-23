@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2d2e9a4d-821f-4735-9a80-ab091579b37e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../JAVA_DEMO/src/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_DEMO/src/Cylinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_DEMO/src/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_DEMO/src/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_AccessModifier/src/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_AccessModifier/src/TestCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_CircleClassAndCylinderClass/src/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_CircleClassAndCylinderClass/src/Cylinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_CircleClassAndCylinderClass/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_ConvertMoney/src/CovertMoney.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_DeleteArrayElement/src/DeleteArrayElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_Display100PrimeNumbers/src/Display100PrimeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_DisplayGreeting/src/Greeting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_DisplayMenu/src/DisplayMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_DisplayPrimes/src/DisplayPrimes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_Fan/src/Fan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_Fan/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_FindMaxElementInMultiDimensionalArray/src/FindMaxElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_FindMinValueInArray/src/FindMinValueInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_MergeArray/src/MergeArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_NumberToWord/src/NumberToWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_Point2DClassAndPoint3DClass/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_Point2DClassAndPoint3DClass/src/Point2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_Point2DClassAndPoint3DClass/src/Point3D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_PointClassAndMoveablePointClass/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_PointClassAndMoveablePointClass/src/MoveablePoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_PointClassAndMoveablePointClass/src/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_QuadraticEquation/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_QuadraticEquation/src/QuadraticEquation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_StopWatch/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_StopWatch/src/StopWatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_TriangleClass/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_TriangleClass/src/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_TriangleClass/src/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_FindMaxArrayValue/src/FindMaxArrayValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Pracitce_BankInterestCalculator/src/BankInterestCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_AccessModifier/src/Simple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_AccessModifier/src/testDefault/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_AccessModifier/src/testDefault/pack/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_AccessModifier/src/testProtected/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_AccessModifier/src/testProtected/pack/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_AccessModifier/src/testPublic/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_AccessModifier/src/testPublic/pack/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_AnimalClassAndInterfaceEdible/src/AbstractAndInterfaceTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_AnimalClassAndInterfaceEdible/src/animal/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_AnimalClassAndInterfaceEdible/src/animal/Chicken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_AnimalClassAndInterfaceEdible/src/animal/Tiger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_AnimalClassAndInterfaceEdible/src/edible/Edible.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_AnimalClassAndInterfaceEdible/src/fruit/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_AnimalClassAndInterfaceEdible/src/fruit/Fruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_AnimalClassAndInterfaceEdible/src/fruit/Orange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_BodyWeight/src/bodyWeight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_CheckPrime/src/CheckPrime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_DaysInMonth/src/daysInMonth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_DrawingMenu/src/DrawingMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_FindArrayValue/src/FindArrayValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_FindMinArrayValue/src/FindMinArrayValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_GreateCommonFactor/src/GreatestCommonFactor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_InterfaceComparable/src/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_InterfaceComparable/src/ComparableCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_LeapYear/src/leapYear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_LinearEquationResolver/src/LinearEquationResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_Operator/src/RectangleProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_RectangleClass/src/PracticeRectangleClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_RectangleClass/src/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Operator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_ReverseArrayElement/src/ReverseArrayElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_StaticMethod/src/com/codegym/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_StaticMethod/src/com/codegym/TestStaticMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_StaticProperty/src/com/codegym/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_StaticProperty/src/com/codegym/TestStaticProperty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_SystemTime/src/SystemTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_TemperatureConvert/src/TempConvert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_TestGeometricObjects/src/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_TestGeometricObjects/src/CircleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_TestGeometricObjects/src/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_TestGeometricObjects/src/RectangleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_TestGeometricObjects/src/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_TestGeometricObjects/src/ShapeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_TestGeometricObjects/src/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_TestGeometricObjects/src/SquareTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_Variable/src/student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/MyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/TestBreak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/TestCountinue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/TestDoWhile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/TestFor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/TestWhile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1hfMQ901ibQBELLfXajIH6thu0P" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CodeGym\Module_02\JAVA_Practice_Refactoring" />
+      <recent name="D:\CodeGym\Module_02\JAVA_Practice_Refactoring\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CalculatorTest.testCalculateAdd">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="JAVA_Practice_Refactoring" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JAVA_Practice_Refactoring" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest.testCalculateAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JAVA_Practice_Refactoring" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
+      <option name="METHOD_NAME" value="testCalculateAdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest.testCalculateDiv" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JAVA_Practice_Refactoring" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
+      <option name="METHOD_NAME" value="testCalculateDiv" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest.testCalculateWrongOperator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JAVA_Practice_Refactoring" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
+      <option name="METHOD_NAME" value="testCalculateWrongOperator" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CalculatorTest.testCalculateAdd" />
+        <item itemvalue="JUnit.CalculatorTest" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="JUnit.CalculatorTest.testCalculateWrongOperator" />
+        <item itemvalue="JUnit.CalculatorTest.testCalculateDiv" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2d2e9a4d-821f-4735-9a80-ab091579b37e" name="Default Changelist" comment="" />
+      <created>1600397675108</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600397675108</updated>
+      <workItem from="1600397676131" duration="3544000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1877" height="347" key="GridCell.Tab.0.bottom" timestamp="1600401255243">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600401255243" />
+    <state width="1877" height="347" key="GridCell.Tab.0.center" timestamp="1600401255243">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600401255243" />
+    <state width="1877" height="347" key="GridCell.Tab.0.left" timestamp="1600401255243">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600401255243" />
+    <state width="1877" height="347" key="GridCell.Tab.0.right" timestamp="1600401255243">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600401255243" />
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1600401255244">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600401255244" />
+    <state width="1877" height="347" key="GridCell.Tab.1.center" timestamp="1600401255243">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600401255243" />
+    <state width="1877" height="347" key="GridCell.Tab.1.left" timestamp="1600401255243">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600401255243" />
+    <state width="1877" height="347" key="GridCell.Tab.1.right" timestamp="1600401255244">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600401255244" />
+    <state x="0" y="164" key="SettingsEditor" timestamp="1600401106327">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600401106327" />
+    <state x="184" y="411" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1600398762089">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="184" y="411" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1600398762089" />
+    <state x="0" y="149" key="new project wizard" timestamp="1600401255195">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="149" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1600401255195" />
+  </component>
+</project>

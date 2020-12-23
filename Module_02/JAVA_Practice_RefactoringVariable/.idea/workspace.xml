@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c1f82bec-8afb-4c93-9303-c9bec6a814af" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../JAVA_DEMO/JAVA_DEMO.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_DEMO/src/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_DEMO/src/Cylinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_DEMO/src/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_DEMO/src/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_AccessModifier/JAVA_Exercise_AccessModifier.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_AccessModifier/src/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_AccessModifier/src/TestCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_CircleClassAndCylinderClass/JAVA_Exercise_CircleClassAndCylinderClass.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_CircleClassAndCylinderClass/src/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_CircleClassAndCylinderClass/src/Cylinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_CircleClassAndCylinderClass/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_ConvertMoney/JAVA_Exercise_ConvertMoney.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_ConvertMoney/src/CovertMoney.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_DeleteArrayElement/JAVA_Exercise_DeleteArrayElement.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_DeleteArrayElement/src/DeleteArrayElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_Display100PrimeNumbers/JAVA_Exercise_Display100PrimeNumbers.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_Display100PrimeNumbers/src/Display100PrimeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_DisplayGreeting/JAVA_Exercise_DisplayGreeting.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_DisplayGreeting/src/Greeting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_DisplayMenu/JAVA_Exercise_DisplayMenu.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_DisplayMenu/src/DisplayMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_DisplayPrimes/JAVA_Exercise_DisplayPrimes.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_DisplayPrimes/src/DisplayPrimes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_Fan/JAVA_Exercise_Fan.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_Fan/src/Fan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_Fan/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_FindMaxElementInMultiDimensionalArray/JAVA_Exercise_FindMaxElementInMultiDimensionalArray.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_FindMaxElementInMultiDimensionalArray/src/FindMaxElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_FindMinValueInArray/JAVA_Exercise_FindMinValueInArray.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_FindMinValueInArray/src/FindMinValueInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_MergeArray/JAVA_Exercise_MergeArray.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_MergeArray/src/MergeArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_NumberToWord/JAVA_Exercise_NumberToWord.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_NumberToWord/src/NumberToWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_Point2DClassAndPoint3DClass/JAVA_Exercise_Point2DClassAndPoint3DClass.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_Point2DClassAndPoint3DClass/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_Point2DClassAndPoint3DClass/src/Point2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_Point2DClassAndPoint3DClass/src/Point3D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_PointClassAndMoveablePointClass/JAVA_Exercise_PointClassAndMoveablePointClass.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_PointClassAndMoveablePointClass/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_PointClassAndMoveablePointClass/src/MoveablePoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_PointClassAndMoveablePointClass/src/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_QuadraticEquation/JAVA_Exercise_QuadraticEquation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_QuadraticEquation/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_QuadraticEquation/src/QuadraticEquation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_StopWatch/JAVA_Exercise_StopWatch.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_StopWatch/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_StopWatch/src/StopWatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_TriangleClass/JAVA_Exercise_TriangleClass.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_TriangleClass/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_TriangleClass/src/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Exercise_TriangleClass/src/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_FindMaxArrayValue/JAVA_FindMaxArrayValue.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_FindMaxArrayValue/src/FindMaxArrayValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Pracitce_BankInterestCalculator/JAVA_Pracitce_BankInterestCalculator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Pracitce_BankInterestCalculator/src/BankInterestCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_AccessModifier/JAVA_Practice_AccessModifier.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_AccessModifier/src/Simple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_AccessModifier/src/testDefault/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_AccessModifier/src/testDefault/pack/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_AccessModifier/src/testProtected/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_AccessModifier/src/testProtected/pack/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_AccessModifier/src/testPublic/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_AccessModifier/src/testPublic/pack/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_AnimalClassAndInterfaceEdible/JAVA_Practice_AnimalClassAndInterfaceEdible.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_AnimalClassAndInterfaceEdible/src/AbstractAndInterfaceTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_AnimalClassAndInterfaceEdible/src/animal/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_AnimalClassAndInterfaceEdible/src/animal/Chicken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_AnimalClassAndInterfaceEdible/src/animal/Tiger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_AnimalClassAndInterfaceEdible/src/edible/Edible.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_AnimalClassAndInterfaceEdible/src/fruit/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_AnimalClassAndInterfaceEdible/src/fruit/Fruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_AnimalClassAndInterfaceEdible/src/fruit/Orange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_BodyWeight/JAVA_Practice_BodyWeight.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_BodyWeight/src/bodyWeight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_CheckPrime/JAVA_Practice_CheckPrime.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_CheckPrime/src/CheckPrime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_DaysInMonth/JAVA_Practice_DaysInMonth.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_DaysInMonth/src/daysInMonth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_DrawingMenu/JAVA_Practice_DrawingMenu.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_DrawingMenu/src/DrawingMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_FindArrayValue/JAVA_Practice_FindArrayValue.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_FindArrayValue/src/FindArrayValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_FindMinArrayValue/JAVA_Practice_FindMinArrayValue.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_FindMinArrayValue/src/FindMinArrayValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_GreateCommonFactor/JAVA_Practice_GreatestCommonFactor.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_GreateCommonFactor/src/GreatestCommonFactor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_InterfaceComparable/JAVA_Practice_InterfaceComparable.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_InterfaceComparable/src/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_InterfaceComparable/src/ComparableCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_LeapYear/JAVA_Practice_LeapYear.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_LeapYear/src/leapYear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_LinearEquationResolver/JAVA_Practice_LinearEquationResolver.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_LinearEquationResolver/src/LinearEquationResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_Operator/JAVA_Practice_Operator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_Operator/src/RectangleProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_RectangleClass/JAVA_Practice_RectangleClass.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_RectangleClass/src/PracticeRectangleClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_RectangleClass/src/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_Refactoring/JAVA_Practice_Refactoring.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_Refactoring/src/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_Refactoring/src/CalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_Refactoring/src/Operator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA_Practice_RefactoringVariable.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FizzBuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FizzBuzzTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_ReverseArrayElement/JAVA_Practice_ReverseArrayElement.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_ReverseArrayElement/src/ReverseArrayElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_StaticMethod/JAVA_Practice_StaticMethod.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_StaticMethod/src/com/codegym/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_StaticMethod/src/com/codegym/TestStaticMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_StaticProperty/JAVA_Practice_StaticProperty.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_StaticProperty/src/com/codegym/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_StaticProperty/src/com/codegym/TestStaticProperty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_SystemTime/JAVA_Practice_SystemTime.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_SystemTime/src/SystemTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_TemperatureConvert/JAVA_Practice_TemperatureConvert.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_TemperatureConvert/src/TempConvert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_TestGeometricObjects/JAVA_Practice_TestGeometricObjects.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_TestGeometricObjects/src/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_TestGeometricObjects/src/CircleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_TestGeometricObjects/src/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_TestGeometricObjects/src/RectangleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_TestGeometricObjects/src/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_TestGeometricObjects/src/ShapeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_TestGeometricObjects/src/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_TestGeometricObjects/src/SquareTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_Variable/JAVA_Practice_Variable.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Practice_Variable/src/student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/MyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/TestBreak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/TestCountinue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/TestDoWhile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/TestFor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/TestWhile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1hfTgAepYpgW5PLShDFucQGpjN5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CodeGym\Module_02\JAVA_Practice_RefactoringVariable\src" />
+      <recent name="D:\CodeGym\Module_02\JAVA_Practice_RefactoringVariable" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FizzBuzzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JAVA_Practice_RefactoringVariable" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FizzBuzzTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FizzBuzzTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c1f82bec-8afb-4c93-9303-c9bec6a814af" name="Default Changelist" comment="" />
+      <created>1600401255571</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600401255571</updated>
+      <workItem from="1600401256598" duration="406000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="914" height="281" key="GridCell.Tab.0.bottom" timestamp="1600401666277">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600401666277" />
+    <state width="914" height="281" key="GridCell.Tab.0.center" timestamp="1600401666276">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600401666276" />
+    <state width="914" height="281" key="GridCell.Tab.0.left" timestamp="1600401666276">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600401666276" />
+    <state width="914" height="281" key="GridCell.Tab.0.right" timestamp="1600401666276">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600401666276" />
+    <state x="184" y="424" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1600401353258">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="184" y="424" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1600401353258" />
+    <state x="0" y="149" key="new project wizard" timestamp="1600401666224">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="149" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1600401666224" />
+  </component>
+</project>
