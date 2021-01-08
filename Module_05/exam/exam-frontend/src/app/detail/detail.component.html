@@ -1,0 +1,18 @@
+<center>
+  <h1>Chi tiết sách</h1>
+  <button [routerLink]="['']">Xem danh sách</button>
+  <table cellpadding="10">
+    <tr>
+      <td>Tên sách:</td>
+      <td>{{book.title}}</td>
+    </tr>
+    <tr>
+      <td>Tác giả:</td>
+      <td>{{book.author}}</td>
+    </tr>
+    <tr>
+      <td>Mô tả:</td>
+      <td><textarea style="resize: none" readonly="readonly" cols="30" rows="10">{{book.description}}</textarea></td>
+    </tr>
+  </table>
+</center>

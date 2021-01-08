@@ -1,0 +1,26 @@
+<h1>Thêm sách mới</h1>
+<form (ngSubmit)="updateBook()" [formGroup]="updateBookForm">
+  <table border="1" cellpadding="5">
+    <tr>
+      <td>Tên: </td>
+      <td>Tác giả: </td>
+      <td>Mô tả: </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>
+        <input type="text" formControlName="title" [value]="book.title">
+      </td>
+      <td>
+        <input type="text" formControlName="author" [value]="book.author">
+      </td>
+      <td>
+        <textarea formControlName="description" [value]="book.description"></textarea>
+      </td>
+      <td>
+        <button type="submit">Cập Nhật</button>
+        <button [routerLink]="['']">Thoát</button>
+      </td>
+    </tr>
+  </table>
+</form>

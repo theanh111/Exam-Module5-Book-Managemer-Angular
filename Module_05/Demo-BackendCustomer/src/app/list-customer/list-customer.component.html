@@ -1,0 +1,18 @@
+<h3>List Customers</h3>
+<table border="1" cellpadding="5">
+  <tr>
+    <td>ID</td>
+    <td>Name</td>
+    <td>Pass</td>
+    <td>Action</td>
+  </tr>
+  <tr *ngFor="let customer of listCustomer">
+    <td>{{customer.id}}</td>
+    <td>{{customer.username}}</td>
+    <td>{{customer.password}}</td>
+    <td>
+      <button>Delete</button>
+      <button>Edit</button>
+    </td>
+  </tr>
+</table>
