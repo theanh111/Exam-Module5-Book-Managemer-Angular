@@ -1,6 +1,6 @@
 <center>
   <h1>Xóa sách</h1>
-  <button [routerLink]="['']">Xem danh sách</button>
+  <button class="btn badge-light" [routerLink]="['']">Xem danh sách</button>
   <table cellpadding="10">
     <tr>
       <td>Tên sách:</td>
@@ -15,6 +15,6 @@
       <td><textarea style="resize: none" readonly="readonly" cols="30" rows="10">{{book.description}}</textarea></td>
     </tr>
   </table>
-  <button (click)="deleteBook()">Xóa sách</button>
-  <button [routerLink]="['']">Thoát</button>
+  <button class="btn btn-danger" (click)="deleteBook()">Xóa sách</button>
+  <button class="btn badge-light" [routerLink]="['']">Thoát</button>
 </center>
